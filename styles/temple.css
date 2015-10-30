@@ -1,0 +1,71 @@
+@import url("reset.css");
+body{font-family:"微软雅黑，tahoma,arial,sans-serif"; font-size:14px;}
+header{background:url(../images/headbg.png) no-repeat;}
+header .header-warp{width:1200px; height:82px; margin:0 auto; }
+header ul.header-top{float:right; margin-top:4px; margin-bottom:10px;}
+header ul.header-top li{float:left; margin-right:20px;}
+header ul.header-top li a{font-size:12px; color:#fff;}
+header ul.header-top li.fgx a{color:#fff;}
+header ul.header-top li.erwei{position:relative; width:70px;background:url(../images/tubiao.png) 62px 6px; }
+header ul.header-top li.erwei:hover figure{display:block;}
+header ul.header-top li.erwei figure{display:none; width:120px; height:122px;
+       position:absolute; left:-60px; top:22px; background:#fff; border-radius:8px;z-index:100;}
+header ul.header-top li figure img{width:88px; height:88px; margin:16px;}
+header .header-mid{clear:both;}
+header a.logo{float:left; display:block; width:250px; height:53px; background:url(../images/logo2.png) no-repeat; 
+	         text-indent:-9999px;}
+header .hdsearch{float:left;height:32px;background: #fff; margin-left:70px; border-radius:4px;}
+header .hdsearch .hdpro{float:left;width:70px; position:relative;  }
+header .hdsearch .hdpro span{display:block; height:32px; line-height:32px; padding-left:10px; 
+	             background:url(../images/tubiao.png) 56px -18px no-repeat; color:#666;}
+header .hdsearch .hdpro:hover ol.selected{display:block; height:70px;}
+header .hdsearch .hdpro ol.selected{display:none; position:absolute; left:0; top:24px; width:70px; 
+	    background: #fff; border:1px solid #eee; border-top:none;}
+header .hdsearch .hdpro ol.selected li a{display:block;width:70px; height:32px;line-height:32px; 
+	    text-align:center; color:#666; } 
+header .hdsearch .hdpro ol.selected li a.current{color:#000;}
+header .hdsearch .hdpro ol.selected li a:hover{background:#F2F2F2;}
+header .hdsearch .searchform{ float:right; }
+header .hdsearch .searchform .txt{width:360px; height:30px; border:none;}
+header .hdsearch .searchform .sub{float:right;width:60px;height:32px;background:#ECECEC url(../images/tubiao.png) 20px -56px no-repeat;
+	   text-indent:-9999px; border:none; border-radius:4px;}	 
+header .header-warp .header-mid ul.hdmidright{margin-right:20px;}
+header .header-warp .header-mid ul.hdmidright a{position:relative; float:right; display:block; width:72px; height:32px; line-height:32px;
+       margin-left:6px; text-align:center; border-radius:4px; border:1px solid #fff; background:#fff; font-size:12px; color:#333; }
+header .header-warp .header-mid ul.hdmidright a.trd{float:right;width:150px; height:32px;}
+header .header-warp .header-mid ul.hdmidright span.car{float:left;width:50px; height:32px;background:url(../images/tubiao.png) 10px -104px no-repeat;
+       border-right:1px solid #eee;}
+header .header-warp .header-mid ul.hdmidright span.shop{display:block;width:150px; height:32px;line-height:32px; text-align:center;background:url(../images/tubiao.png) 138px -146px no-repeat;}
+header .header-warp .header-mid ul.hdmidright span b{color:#f00; font-weight: bolder; font-size: 14px; margin:0 2px;}
+header .header-warp .header-mid ul.hdmidright .product{position:absolute;left:-50px; top:30px;width:200px; height:60px; background:#fff; border:1px solid #eee; border-top:none;border-radius:4px;display:none;}
+header .header-warp .header-mid ul.hdmidright a:hover .product{display:block;}
+.headnav{width:100%;border-bottom:1px solid #F46; }
+.headnav nav{width:1200px; margin:0 auto;overflow:hidden;}
+.headnav nav ul{height:40px;  background:url(../images/tubiao.png) -96px -206px no-repeat;}
+.headnav nav ul li{float:left;width:117px; height:20px; line-height:20px;text-align:center;
+   background:url(../images/tubiao.png) right -217px no-repeat; margin-top:10px;}
+.headnav nav ul li a{color:#333; font-size:;}
+.headnav nav ul li a.current{background:#F46;color:#fff; border-radius:20px; padding:2px 15px;}
+
+/*footer*/
+footer{width:100%;height:140px; background:url(../images/footerbg.png); margin-top:10px; }
+footer .footer-warp{width:1200px; height:140px; margin:0 auto; overflow:hidden;}
+footer .info{float:left; padding:30px 100px 0 0; }
+footer .info a.info-logo{display:block; width:143px; height:35px;background:url(../images/logo.png) no-repeat;}
+footer .info .infop{margin-top:2px;}
+footer .info p{height:16px; line-height:16px; color:#999;margin-top:2px; font-size:12px;}
+footer dl{float:left; padding:30px 100px 0 0;color:#333;}
+footer dt{font-weight:bold; padding-bottom:4px;}
+footer dd{margin-top:8px; font-size:12px;}
+footer dl.last{overflow:hidden; width:300px; }
+footer dl.last a{float:left;height:28px;}
+footer a.jiaojin{width:50px; background:url(../images/split.png) -480px -50px no-repeat;}
+footer a.pingan{ width:164px; background:url(../images/split.png) -240px -50px no-repeat;}
+footer a.ke{ width:84px; background:url(../images/split.png) -394px -50px no-repeat;}
+
+
+
+
+
+
+
